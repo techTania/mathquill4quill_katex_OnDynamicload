@@ -1,0 +1,10 @@
+
+Simple Editor
+
+<div *ngIf="enableKatex">
+
+  <quill-editor  class="content-editor" [placeholder]="''"
+
+  [modules]="QuillConfiguration" (onEditorCreated)="onEditorCreated($event)"> </quill-editor>
+  
+</div>
